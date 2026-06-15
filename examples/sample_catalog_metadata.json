@@ -1,0 +1,21 @@
+[
+  {
+    "name": "sample_subscribers",
+    "description": "Sample subscriber account status and revenue data for catalog testing.",
+    "source": "examples/sample_subscribers.csv",
+    "format": "csv",
+    "row_count": 3,
+    "freshness": "2026-06-15T00:00:00+00:00",
+    "quality": {
+      "completeness": 1.0,
+      "duplicate_subscriber_id_count": 0
+    },
+    "lineage": [
+      {
+        "upstream": "billing_system.subscriber_accounts",
+        "downstream": "sample_subscribers",
+        "transformation": "daily extract"
+      }
+    ]
+  }
+]
