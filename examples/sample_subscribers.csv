@@ -1,0 +1,4 @@
+subscriber_id,account_id,status,activation_date,monthly_revenue
+1001,5001,active,2025-01-15,55.20
+1002,5002,churned,2024-11-03,0.00
+1003,5003,active,2025-03-22,72.45
